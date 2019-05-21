@@ -7,48 +7,39 @@ public class Book {
 	private int year;
 	private int isbn;
 	private int price;
-	/* Constructor with parameters */
-	public Book(String title, String author, int year, int isbn, int price)
 	
-	{
-		this.title = title;
-		this.author = author;
-		this.year = year;
-		this.isbn = isbn;
-		this.price = price;
-	}
-	public String gettitle() {
+	
+	public String getTitle() {
 		return title;
 	}
-	public void settitle(String title) {
+	public void setTitle(String title) {
 		this.title = title;
 	}
-	
-	public String getauthor() {
+	public String getAuthor() {
 		return author;
 	}
-	public void setauthor(String auhtor, String author) {
+	public void setAuthor(String author) {
 		this.author = author;
 	}
-	public int getyear() {
+	public int getYear() {
 		return year;
 	}
-	public void setyear(int year) {
+	public void setYear(int year) {
 		this.year = year;
 	}
-	public int getisbn() {
+	public int getIsbn() {
 		return isbn;
 	}
-	public void setisbn(int isbn) {
+	public void setIsbn(int isbn) {
 		this.isbn = isbn;
 	}
-	
-	public int getprice() {
+	public int getPrice() {
 		return price;
 	}
-	public void setprice(int price) {
+	public void setPrice(int price) {
 		this.price = price;
 	}
+	
 	
 	
 }
