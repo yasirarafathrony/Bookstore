@@ -8,7 +8,18 @@ public class Book {
 	private int isbn;
 	private int price;
 	
-	
+	public Book() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Book(String title, String author, int year, int isbn, int price) {
+		super();
+		this.title = title;
+		this.author = author;
+		this.year = year;
+		this.isbn = isbn;
+		this.price = price;
+	}
 	public String getTitle() {
 		return title;
 	}
